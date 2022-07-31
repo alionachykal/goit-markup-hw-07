@@ -1,0 +1,14 @@
+.section.hero {
+
+    background-color: #2F303A;
+    text-align: center;
+    padding: 200px 0;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../image/Img-hero.jpg),
+        url(../images/overlay.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

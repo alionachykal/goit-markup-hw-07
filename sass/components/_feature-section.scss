@@ -1,0 +1,44 @@
+.section.features {
+    flex-direction: row;
+    background: #FFFFFF;
+    padding: 94px 0;
+    text-align: center;
+    column-gap: 30px;
+}
+
+
+
+
+
+.features-list {
+    display: flex;
+    text-align: center;
+    padding-left: 0;
+    column-gap: 30px;
+
+}
+
+.features-list:last-child {
+    margin-right: 0;
+}
+
+.feature-list__item {
+    display: block;
+    width: 270px;
+
+}
+
+.features-icons {
+    height: 120px;
+    background: rgba(245, 244, 250, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.icon-features {
+    width: 65px;
+    height: 70px;
+
+}

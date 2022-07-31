@@ -1,0 +1,52 @@
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section.work {
+    padding-top: 0;
+}
+
+
+
+
+.work-list2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--primary-text-color);
+    margin-bottom: 0;
+
+}
+
+.work-list {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    column-gap: 30px;
+}
+
+/* анимация для Чем мы занимаемся  */
+.work-services {
+    display: flex;
+    position: relative;
+}
+
+
+
+.work-services__text {
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    width: 370px;
+    transform: translate(-100%, -100%);
+    padding-top: 27px;
+    padding-bottom: 27px;
+    margin-bottom: 0;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    background: rgba(47, 48, 58, 0.8);
+    color: var(--primary-bcg-color);
+}
