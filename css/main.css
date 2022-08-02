@@ -30,28 +30,6 @@
   pointer-events: none;
 }
 
-*,
-*::before,
-*::after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
-
-.page-header .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 ul {
   margin: 0px;
   padding: 0px;
@@ -70,16 +48,15 @@ body {
   line-height: 1.14;
 }
 
+.page-header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-
-*,
-*::after,
-*::before {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
 }
 
 /* Стили для обнуления верхних отступов у элементов */
@@ -111,6 +88,8 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /* Свойства для обнуления курсива у address */
@@ -125,6 +104,15 @@ ul {
 input,
 textarea {
   outline: none;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .button-port {
@@ -412,6 +400,13 @@ textarea {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 .link1 {
