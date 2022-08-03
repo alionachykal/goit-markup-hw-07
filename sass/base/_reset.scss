@@ -4,3 +4,50 @@
     box-sizing: inherit;
     box-sizing: border-box;
 }
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    display: inline-block;
+}
+html {
+    box-sizing: border-box;
+}
+
+
+/* Стили для обнуления верхних отступов у элементов */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+}
+
+
+/* Свойства для корректного отображения картинок */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Свойства для обнуления курсива у address */
+
+address {
+    font-style: normal;
+}
+
+ul {
+    list-style: none;
+}
+
+input,
+textarea {
+    outline: none;
+}

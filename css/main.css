@@ -30,15 +30,6 @@
   pointer-events: none;
 }
 
-ul {
-  margin: 0px;
-  padding: 0px;
-}
-
-a {
-  display: inline-block;
-}
-
 /*body*/
 body {
   background-color: var(--primary-bcg-color);
@@ -48,10 +39,22 @@ body {
   line-height: 1.14;
 }
 
-.page-header .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  display: inline-block;
 }
 
 html {
@@ -68,19 +71,6 @@ h5,
 h6,
 p {
   margin-top: 0;
-}
-
-/* Класс для обнуления базовых свойств у списков (ul) */
-.list {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
-}
-
-/* Класс для обнуления базовых свойств у ссылок */
-.link {
-  text-decoration: none;
-  color: inherit;
 }
 
 /* Свойства для корректного отображения картинок */
@@ -104,15 +94,6 @@ ul {
 input,
 textarea {
   outline: none;
-}
-
-*,
-*::before,
-*::after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .button-port {
@@ -407,6 +388,19 @@ textarea {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+}
+
+/* Класс для обнуления базовых свойств у списков (ul) */
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* Класс для обнуления базовых свойств у ссылок */
+.link {
+  text-decoration: none;
+  color: inherit;
 }
 
 .link1 {
@@ -1260,6 +1254,12 @@ a.number:focus {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+}
+
+.page-header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .page-header {
